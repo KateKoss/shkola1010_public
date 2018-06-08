@@ -4,7 +4,7 @@ export function showMessage() {
     alert('Hello ' + user.name);
 }
 
-function confirmAge() {
+export function confirmAge() {
     var result = window.prompt("What's your age?");
     if(result >= 18) {
         showMessage();
